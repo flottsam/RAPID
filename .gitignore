@@ -1,0 +1,50 @@
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+.Renviron
+
+# Data directories (never track data)
+data/
+outputs/
+archive/
+
+# Large spatial & raster formats
+*.tif
+*.tiff
+*.grd
+*.gri
+*.nc
+*.gpkg
+*.shp
+*.dbf
+*.shx
+*.cpg
+*.prj
+
+# Tabular data
+*.csv
+*.xlsx
+*.xls
+
+# R serialized objects
+*.rds
+*.rda
+
+# Columnar / fast formats
+*.parquet
+*.feather
+*.fst
+
+# Documents
+*.doc
+*.docx
+*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+.positai
