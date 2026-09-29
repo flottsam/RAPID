@@ -48,3 +48,5 @@ Thumbs.db
 # Logs
 *.log
 .positai
+.Rproj.user
+.Rproj.user
