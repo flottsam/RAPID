@@ -1,6 +1,5 @@
 # install packages and libraries -------------------------------------------------------
 
-
 if (!require("pacman")) install.packages("pacman"); library(pacman)
 pacman::p_load(here, tidyverse, terra, sf, tigris, rosettaPTF)
 
